@@ -1,0 +1,4 @@
+audit:
+  branches:
+    main:
+      discovery: false
