@@ -1,0 +1,2 @@
+- name: 42Crunch REST API Static Security Testing
+  uses: 42Crunch/api-security-audit-action@v2
