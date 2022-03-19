@@ -1,2 +1,10 @@
-- name: 42Crunch REST API Static Security Testing
-  uses: 42Crunch/api-security-audit-action@v2
+name: Validation
+
+on: [push]
+jobs:
+  validation:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "iniciando validação de open api"
+      - name: 42Crunch REST API Static Security Testing
+      - uses: 42Crunch/api-security-audit-action@v2
