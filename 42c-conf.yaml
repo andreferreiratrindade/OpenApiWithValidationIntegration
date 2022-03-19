@@ -1,4 +1,6 @@
 audit:
   branches:
     main:
+      mapping:
+        openApi.json: e7cd62ce-1ee9-4320-af33-8bd9519c6f48
       discovery: false
