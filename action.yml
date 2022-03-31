@@ -1,4 +1,7 @@
 # action.yml
+
+
+
 name: "42Crunch REST API Static Security Testing"
 description: "The REST API Static Security Testing action adds an automatic static application security testing (SAST) to your workflows"
 inputs:
